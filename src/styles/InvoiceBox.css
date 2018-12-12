@@ -1,0 +1,33 @@
+@import "../App.css";
+
+.invoice-first-row {
+    align-items: baseline;
+}
+
+.invoice-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-inline-end: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.invoice-number {
+    font-size: 1.5em;
+}
+
+
+.border-right {
+    border-right: 1px solid #EEEEEE;
+}
+
+.border-left {
+    border-left: 1px solid #EEEEEE;
+}
+
+
+
+.big-orange-text {
+    color: #ff9900;
+    font-size: 1.5em;
+}

@@ -1,0 +1,81 @@
+* {
+  font-family: 'Cabin', sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+
+  width: 100%;
+  background-color: #F8FBFF;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.app-body {
+  background-color: #F8FBFF;
+  padding-top: 10px;
+}
+
+.nav-link:hover {
+  color: #0EB2DB !important;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background: white;
+  border: 1px solid #EEEEEE;
+}
+
+.revision-title {
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.category-text {
+  font-weight: lighter;
+}
+
+.data-text {
+  font-weight: bold;
+}
+
+.horizontal-tight {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}

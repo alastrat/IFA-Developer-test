@@ -1,0 +1,53 @@
+.top-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    width: 100%;
+}
+
+
+.center-row {
+    justify-content: center;
+}
+
+.title-text {
+    font-weight: bold;
+}
+
+.circles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 50px;
+
+}
+
+.circle-icon {
+    box-sizing: border-box;
+    border: 2px solid #eeeeee;
+    border-radius: 2em;
+    padding: 0.5em;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+}
+
+.circle-icon::before {
+    content: "";
+    position: absolute;
+    width: 400%;
+    top: 50%;
+    left: 100%;
+    border: 2px solid #eeeeee;
+    z-index: -1;
+}
+
+.circle-icon:last-of-type::before {
+    display: none;
+}
+
+.map {
+    max-width: 80%;
+}
